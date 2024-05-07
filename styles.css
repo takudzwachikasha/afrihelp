@@ -36,7 +36,8 @@
 #services{
   background-size:auto;
   background-repeat: no-repeat;
-  padding: 0% 3% 5%;
+  padding:0;
+  margin: 0;
 
 }
 

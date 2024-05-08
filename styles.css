@@ -48,3 +48,40 @@
   text-align: center;
   border-radius: 50%;
 }
+
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+body {
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #11235A;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-control {
+      border-color: #11235A;
+      color: #11235A;
+    }
+
+    .form-control:focus {
+      border-color: #FFC857;
+      box-shadow: 0 0 0 0.25rem rgba(17, 35, 90, 0.25);
+    }
+
+    .contact {
+      background-color: #E5B645;
+      color: #11235A;
+      border-color: #E5B645;
+    }
+
+    .contact:hover {
+      background-color: #FFC857;
+      border-color: #FFC857;
+    }

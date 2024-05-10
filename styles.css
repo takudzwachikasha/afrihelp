@@ -98,6 +98,15 @@ body {
   text-align: center;
 }
 
+.about-image {
+  margin-top: 50px;
+}
+
+.about-image img {
+  border-radius: 15px;
+  /* Adjust the value to change the roundness */
+}
+
 .about-content h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;

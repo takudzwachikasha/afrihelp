@@ -6,42 +6,41 @@
   text-align: right;
 }
 
-.navbar-collapse{
-  color: #fff; /* Text color set to white */
-    text-decoration: none; /* Remove any text decoration */
-    font-size: 20px;
-
+.navbar-collapse {
+  color: #fff;
+  /* Text color set to white */
+  text-decoration: none;
+  /* Remove any text decoration */
+  font-size: 20px;
 }
 
-#btn a{
-  margin:5% 2% 5% 5%;
+#btn a {
+  margin: 5% 2% 5% 5%;
   color: #0C359E;
   font-weight: bold;
 }
 
-#header h2{
+#header h2 {
   font-size: 4.5rem;
   color: #fff;
   margin-left: 50%;
   font-weight: bold;
 }
 
-#header h5{
+#header h5 {
   font-size: 2rem;
   color: #fff;
-
   font-weight: bold;
 }
 
-#services{
-  background-size:auto;
+#services {
+  background-size: auto;
   background-repeat: no-repeat;
-  padding:0;
+  padding: 0;
   margin: 0;
-
 }
 
-.card{
+.card {
   background: linear-gradient(to right, #0174BE, #11235A);
   padding: 5%;
   color: #fff;
@@ -53,35 +52,57 @@
    https://themestr.app
 */
 body {
-      background-color: #f4f4f4;
-    }
+  background-color: #f4f4f4;
+}
 
-    .container {
-      max-width: 500px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #11235A;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    }
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #11235A;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
-    .form-control {
-      border-color: #11235A;
-      color: #11235A;
-    }
+.form-control {
+  border-color: #11235A;
+  color: #11235A;
+}
 
-    .form-control:focus {
-      border-color: #FFC857;
-      box-shadow: 0 0 0 0.25rem rgba(17, 35, 90, 0.25);
-    }
+.form-control:focus {
+  border-color: #FFC857;
+  box-shadow: 0 0 0 0.25rem rgba(17, 35, 90, 0.25);
+}
 
-    .contact {
-      background-color: #E5B645;
-      color: #11235A;
-      border-color: #E5B645;
-    }
+.contact {
+  background-color: #E5B645;
+  color: #11235A;
+  border-color: #E5B645;
+}
 
-    .contact:hover {
-      background-color: #FFC857;
-      border-color: #FFC857;
-    }
+.contact:hover {
+  background-color: #FFC857;
+  border-color: #FFC857;
+}
+
+.about-section {
+  background-color: #11269B;
+  color: #fff;
+  padding: 100px 0;
+  background-image: url('img/about.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+}
